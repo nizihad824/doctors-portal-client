@@ -40,9 +40,6 @@ const InfoCards = () => {
                  key={card.id}
                  card={card}></InfoCard>)
             }
-           
-
-            
         </div>
     );
 };
