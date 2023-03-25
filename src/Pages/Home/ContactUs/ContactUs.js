@@ -1,5 +1,6 @@
 import React from 'react';
 import appointment from '../../../assets/images/appointment.png';
+import PrimaryButton from '../../../component/PrimaryButton/PrimaryButton';
 
 const ContactUs = () => {
     return (
@@ -11,8 +12,10 @@ const ContactUs = () => {
                 <div className='mt-6 mb-16 py-3 grid grid-cols-1'>
                     <input type="text" placeholder="Your email address" className="input input-bordered  mt-3" />
                     <input type="text" placeholder="Subject" className="input input-bordered mt-3" />
-                    <textarea type="text" className="textarea input input-bordered mt-3" placeholder="message"></textarea>
+                    <textarea type="text" className="textarea input input-bordered mt-3 mb-4" placeholder="message"></textarea>
+                    <div className='text-center'> <PrimaryButton>Submit</PrimaryButton></div>
                 </div>
+               
             </div>
             <div>
 
